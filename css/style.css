@@ -2,6 +2,12 @@
 .container {
     width: 1140px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    vertical-align: middle;
   }
   .card_wrapper {
     width: 800px;
@@ -21,7 +27,8 @@
   }
   body {
     background: #F3EAE3;
-    padding: 5rem 0rem;
+    /* padding: 5rem 0rem; */
+    
   }
   .card-subtitle {
     text-transform: uppercase;
